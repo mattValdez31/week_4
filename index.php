@@ -99,7 +99,6 @@ foreach($year as $y)
 					switch($rem)
 						{case 0:
 							echo $y . ":True ";
-							break;
 						default:
 							echo $y . ":False ";}}
 	}
@@ -128,7 +127,6 @@ for ($i = 0; $i < count($year); $i++)
 					{
 						case 0:
 							echo $year[$i] . ":True ";
-							break;
 						default:
 							echo $year[$i] . ":False ";
 					}
